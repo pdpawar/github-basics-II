@@ -1,0 +1,11 @@
+echo "# github-basics-II" >> README.md
+git init
+git add README.md
+git commit -m "first commit"
+git remote add origin https://github.com/pdpawar/github-basics-II.git
+git push -u origin master
+git status
+git checkout -b dev
+git status
+git push -u origin master
+git push -u origin dev
